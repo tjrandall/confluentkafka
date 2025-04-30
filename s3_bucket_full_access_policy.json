@@ -5,8 +5,8 @@
       "Effect": "Allow",
       "Action": "s3:*",
       "Resource": [
-        "arn:aws:s3:::platform-engineering-terraform-state",
-        "arn:aws:s3:::platform-engineering-terraform-state/*"
+        "arn:aws:s3:::platform-engineering-terraform-state-wer138",
+        "arn:aws:s3:::platform-engineering-terraform-state-wer138/*"
       ]
     }
   ]
