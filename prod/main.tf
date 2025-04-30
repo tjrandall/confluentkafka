@@ -11,7 +11,7 @@ terraform {
 # Configure the terraform backend to store the terraform state
 terraform {
   backend "s3" {
-    bucket = "platform-engineering-terraform-state"
+    bucket = "platform-engineering-terraform-state-wer138"
     key    = "terraform/all-state/data-streaming-platform.tfstate"
     region = "us-east-1"
     encrypt = true
